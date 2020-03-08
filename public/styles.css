@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Lombok';
+  src: url('Lombok.otf');
+}
+body {
+  margin: 0;
+  font-family: 'Lombok', Fallback, sans-serif;
+}
+.nav {
+  background-color: black;
+  color: white;
+  height: 4rem;
+}
+.nav-logo {
+  font-size: 2rem;
+}
