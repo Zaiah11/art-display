@@ -4,31 +4,37 @@ import Gallery from "react-photo-gallery"
 
 const App = () => {
   const [images, setImages] = useState([{ src: null, height: null, width: null }])
+  
+  const [modalImageSrc, setModalImageSrc] = useState('')
+  const [modelIsOpen, setModalIsOpen] = useState(false)
+  
+  const openModal = ({src}) => {
+    setModalImageSrc(src)
+    setModalIsOpen(true)
+  }
+  
+  const closeModal = () => {
+    setModalImageSrc('')
+    setModalIsOpen(false)
+  }
+  
   useEffect(() => {
+    document.addEventListener("keydown", ({key}) => {
+      if (key === 'Escape') closeModal()
+    })
+
     const getImages = async () => {
       const { data } = await axios('/images')
       setImages(data)
     } 
     getImages()
   }, [])
-
-  const [modalImageSrc, setModalImageSrc] = useState('')
-  const [modelIsOpen, setModalIsOpen] = useState(false)
-
-  const openModal = ({src}) => {
-    setModalImageSrc(src)
-    setModalIsOpen(true)
-  }
-
-  const closeModal = () => {
-    setModalImageSrc('')
-    setModalIsOpen(false)
-  }
-
+  
   return (
     <div>
       <div className="nav">
-        <div className="nav-logo">SIMONANDREW</div>
+        <span className="nav-logo">SIMONANDREW</span>
+        <span className="nav-title">Gallery</span>
       </div>
 
       <Gallery 
@@ -39,10 +45,13 @@ const App = () => {
       />
 
       {modelIsOpen && 
-        <div className="modal">
+        <div className="modal" onClick={closeModal}>
           <div className="modal-content">
-            <img className="image" src={modalImageSrc}></img>
-            <button>Purchase</button>
+            <div className="row">
+              <span className="close-button">x</span>
+            </div>
+            <img className="image" src={modalImageSrc} />
+            <button className="button">Details</button>
           </div>
         </div>
       }
