@@ -3,19 +3,27 @@ import axios from 'axios'
 import Gallery from "react-photo-gallery"
 
 const App = () => {
-  const [images, setImages] = useState([{ src: null, height: null, width: null }])
+  const [images, setImages] = useState([{ src: '', height: null, width: null, store: '' }])
 
-  const [modalImageSrc, setModalImageSrc] = useState('')
+  const [modalImageSrc, setModalImageSrc] = useState({src: '', store: ''})
   const [modelIsOpen, setModalIsOpen] = useState(false)
 
-  const openModal = ({ src }) => {
-    setModalImageSrc(src)
+  const [loading, setLoading] = useState(false)
+
+  const openModal = ({ src, attributes }) => {
+    const {value} = attributes.store
+    setModalImageSrc({src, store: value})
     setModalIsOpen(true)
   }
 
   const closeModal = () => {
-    setModalImageSrc('')
+    setModalImageSrc({src: '', store: ''})
     setModalIsOpen(false)
+  }
+
+  const redirectToStore = (url) => {
+    setLoading(true)
+    window.location.href = url
   }
 
   useEffect(() => {
@@ -31,6 +39,8 @@ const App = () => {
   }, [])
 
   return (
+    loading ? <div></div> : 
+
     <div>
       <div className="nav">
         <span className="nav-logo">SIMONANDREW</span>
@@ -50,8 +60,8 @@ const App = () => {
             <div className="row">
               <span className="close-button">x</span>
             </div>
-            <img className="image" src={modalImageSrc} />
-            <button className="button">Details</button>
+            <img className="image" src={modalImageSrc.src} />
+            <button className="button" onClick={() => redirectToStore(modalImageSrc.store)}>Shop</button>
           </div>
         </div>
       }
