@@ -1,4 +1,4 @@
-exports.images = [
+exports.artwork = [
   {
     src: 'https://lh3.googleusercontent.com/EnnzCWH1HfwS4ZzDWu5TjJnVr_B75IyLzcpf9W74Yqi-rJiUXH_UDq3NND4MB-NrgL7YZdCmiN-7o8PHJ_UPsR1cJsANZnXfrIuBRvUjeNYgIokOGz4ccYL7g1OuoLBgufSnR8qNQhrkgHEWOVzem4Vb_nMIE_IJd8ObNp88SxC6-MzJKP19GRqHhRWDzRzpkK1bzQU0NpD4lWAHywMoscWXCfDUXWL-7pRdhRF_BZvXNq8KNSjo555XfCBl6vfDEf6nAyKu3NBwjTyNY7zhCRxzgepzNtUx5nXdk5B9zXd9W0VN6_QKMQXjQzDyfzh7w7kQzDkEQ9h4jZDuEYAtbm2W_CU6EkjboWmCXDbfY6kgtIKST_jc4flN8THdS9WkjqmIf0QdZP4ZrRP4htFE4BuGhYVkxwRvNNZab40mi3sOESjgppaArmTb38pcQznpVViaP9hV5ayfZkkCYkzUgg399K9nHvyH-8KqPB-EN1G8cvIFM0PXTORLpjwcXM1_AtsT88hde3LioGQXjaonEagyDCo0MjsyGf8V82j0wHodPFoi0g2Bc_NxWh7SD4Vnp48WER_HwicNMTKT7ezrTJ8EQ4jJRJuM1YHNAM64grW62wbqWENxy9O7SsHiWQuICPn1sU6gIr_4Bme5Y0Km364758U5Q0Nk2x_OjkD4j1NVtzxhRSaE_Mk=w1536-h1026-no',
     height: 3,
@@ -17,5 +17,22 @@ exports.images = [
     height: 3,
     width: 4,
     store: 'https://www.redbubble.com/people/simonandrew/shop?ref=artist_title_name'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/v4EFBF4LEk8tCfePfT2B6WgGp8fb5II-Y4GD08Bbz1PJhX17jmo0O00oYXMTlIALKohBWlRT0avTfBV2ZMrvJtl9woR80WSHtC8pMnZwTS09JToa1Gf47MPWbOpl_YIK1TrBOMx7iolt6ynfMcTmXOb4KMABAn7n9SpITVtVIQsBE8t23RUUBCzMOZtymm-ttCe57ljvZrEwL29nZI-MUsWvWd7FHFSWJfeTZgW0jfj05LIB2SxMQRGzcjlsnb1REWPi3XWBO-pdAwapoXaPI2LRfypjhpc1SAjsexRVfu9QQ3h60ykUNdZrpJJ6W24PkqobUbzXOeHgdF2pMwlVrV0L7VOweGX8cKtlcm9DtK5V57cmPATb6KRUwMEuQe3E3yLTAe78tfiFQmSjPM-oQzCQFczyMZ6V8I2SHMA1fuPov3NbajQSrzfuD5dxrJWwvLOWY5TjCpEsZaOvFz9J69mK-WdGp43UxIQKs3r2qXYh7Jxr9-usfCAOWw1sKcsuqwpww63jqW_qSj5UrmziEcjQpxsh87T6nHhweo5PrcQKO7UNnTDOjqZ81oknvVuoU5gbrPs4nJfo2oZZsjTv4ijNNYdnMi9X-c9BWsTxPNlkatCaKLesMQE2_LesPk4wQIjqkVo_Vc605HukoSJLiXdUJ_VjloS6q91v2exrEOeeJx9BwB3LTgy4vTHlAw=w780-h1024-no',
+    height: 4,
+    width: 3,
+    store: 'https://www.redbubble.com/people/simonandrew/shop?ref=artist_title_name'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/V5kypOlqkc9-x7VUxp0mZzfmyVxMnlndKKxl3NLvPYCo7PEfoHIJzdDn_8_V6UiVPXikZVFskC_3CPzNWTwBpn9ak-cg9mVxSj8NFJOznKNTFXIAOLu7QOdUZm2kMzFDrZ0FOyBU3-9dDmW7QrhttcoISh4qT3UrI4N4BA2akJqtA7Omapf_4N_H5GXSrHJLJ-0Ofi5-NEZibLICvTp5g2uc7lKy6VtchAJsxA2WFIg4LVi8s2XGEyfpGv7wgsZHDWZhNZmD-kPa4ACGtI70a9KKr1MiUASJNKPrFsrFr7JxAgzk9bcpU9o5ODWa9COnb-Kt2Y3HAKRgp4DBXbVVk3zFlL-KT-evQ7OTig-1El44ehuKrR5uYNP-3GqUfjj2oOA0qOxvfFct5EP7NuSFAeLlZ8B9jivo83Mz6Fj3KtD6sQda1ggoUzv3gJgVzry2YUpj6Ve6I649fv5Gx5VHvsfzaKQhdO6BT13s-1wLGh8X30w8MNPjYnfSM7l8VMthlQIjA9m4xcLRLF9rBtBW8kvaIaPjhs36Caae6I9B46HEG_HkskcPP4xJkCYmYt0hbC17G3xz3A40kwVTFTUP_7qMe-yLXahNW2D5w5UL8t18yZ56bkCnMzWnRqHi-5heSmMF3PiewiCx4lpO7XinQdcm0G9160TZZT1T134DZgwxA93oa1AjdKftC-uztA=w763-h1024-no',
+    height: 4,
+    width: 3,
+    store: 'https://www.redbubble.com/people/simonandrew/shop?ref=artist_title_name'
   }
 ]
+
+exports.bio = {
+  bio: 'I am an artist. I make paint good. I hope you like what I paint, It is my paint for you.',
+  photo: 'https://lh3.googleusercontent.com/zEBNSAT9ZuizE9Zmnenlmb543faodOkV_j5oxguWK4la5AJFIoEl8zVO1T3jAwZJVcjpLp_1cXNwPW0LnsZ7Dzr88_9kBzvxc1odz7od-kUN9UKaJS-sXnkSTDyisEMo7w1-5HFoBlYk4s7AE5cKVfqTyKcAPFAb2SVKKPbFBXZk168P9TK7wz0uFXQ-ZIjSHnV2qXqfTD2drdYg3bYnni9NCLI_pHZlh9xW2SsTo8fC82WM7EaTzEHCAgQTiMJJ-jjfeWxNnB4FYSUHVE4ZX0rO6tVHOygh6gXoGt1XM2qhATEmxELmu9pC_JTKmATpCyF44Ci74BezmDehheV3ypKngV4HYwf69EgRT0-7IDQrsxq9TkGid7kruTipOidky9WD8qPXcDVlK7524Dk50gmBZkB1FS3vwEYxA72ZImO0GTmpsVQ_MKO-idMlpH03q7X2esR164ewQk8G1R4nNnxX7T4Phb-GI8PVlUNvQezpy9cgEwo5WtQdf-0BIWcHiglNualb4wc4-HGp4dnwE33hfEsDwWa5O_3pOaumYiB5YNqw2lym4awXP27UnjkybVw76-g3IctVrh8JqCAh_4UBYGT3hk85ncf9rvHs142m-bnM5xLUpwGo714-VJzYOJxye3LQ6ThCK5dE9ZE2yqUn2Ga9cLH1Ou7YM9L3-ilOJoSRtEPoylWxS7rQzw=w2590-h1942-no'
+}
